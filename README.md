@@ -16,9 +16,11 @@ This is a simple web app DEMO that includes Dashboard for admins who can create 
 
  3- Run "php artisan key:generate" to create application key.
 
- 5- Create database using command "create-database {name}".
+ 4- Run "php artisan optimize:clear"
 
- 6- "Run php artisan migrate".
+ 5- Create database using command "php artisan create-database {name}".
+
+ 6- Run "php artisan migrate".
 
  7- Run application seeders using command "php artisan db:seed".
 
